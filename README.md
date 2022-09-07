@@ -49,6 +49,6 @@ Create your migrations.
 - `KaraokeSinger#songs` returns all the songs that singer has sung
 - `KaraokeSinger#sing(song)` takes in an instance of a Song and creates a join between the KaraokeSinger instance an the Song instance
 - `KaraokeSinger#buy_drink` increases and saves the drink total for that karaoke_singer by one
-- `KaraokeSinger#songs_by_artist(artist)` returns an array of unique artist names of every song that karaoke_singer has sung
+- `KaraokeSinger#songs_by_artist(artist)` returns an array of songs by a specified artist that karaoke_singer has sung
 - `KaraokeSinger#drinks_tab(price_per_drink)` returns the number of drinks for a karaoke_singer and multiplies it by the `price_per_drink` argument
 - `KaraokeSinger.total_tab(price_per_drink)` is a class method that adds together the tabs for every KaraokeSinger instance
